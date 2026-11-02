@@ -1,0 +1,28 @@
+# Node
+node_modules/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+
+# Allure
+allure-results/
+allure-report/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+

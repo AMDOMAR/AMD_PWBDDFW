@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["ES2022", "DOM"],
+    "rootDir": ".",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "types": ["node"]
+  },
+  "include": [
+    "config/**/*.ts",
+    "hooks/**/*.ts",
+    "pages/**/*.ts",
+    "step-definitions/**/*.ts",
+    "test-runner/**/*.ts",
+    "types/**/*.d.ts",
+    "playwright.config.ts"
+  ],
+  "exclude": ["node_modules", "dist", "reports"]
+}
